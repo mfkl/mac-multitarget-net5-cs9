@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net5.0;xamarin.ios10</TargetFrameworks>
-   <!--  <LangVersion>9.0</LangVersion> -->
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
 
 </Project>
