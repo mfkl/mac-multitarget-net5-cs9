@@ -19,4 +19,5 @@ steps:
   displayName: Build
   inputs:
     solution: 'repro-dotnet-5-mac.csproj'
-    msbuildArguments: 'restore,build'
+    msbuildArguments: build
+    restoreNugetPackages: true
