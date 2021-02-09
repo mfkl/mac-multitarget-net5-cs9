@@ -10,8 +10,13 @@ pool:
   vmImage: 'macOS-latest'
 
 steps:
+- task: UseDotNet@2
+  displayName: 'Use .NET Core SDK'
+  inputs:
+    packageType: sdk
+    version: 5.0.102
 - task: MSBuild@1
   displayName: Build
   inputs:
     solution: 'repro-dotnet-5-mac.csproj'
-
+    msbuildArguments: 'restore,build'
