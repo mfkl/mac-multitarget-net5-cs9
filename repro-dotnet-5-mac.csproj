@@ -1,7 +1,7 @@
 <Project Sdk="MSBuild.Sdk.Extras">
 
   <PropertyGroup>
-    <TargetFrameworks>net5.0;xamarin.ios10</TargetFrameworks>
+    <TargetFrameworks>net6.0;xamarin.ios10</TargetFrameworks>
     <LangVersion>9.0</LangVersion>
   </PropertyGroup>
 
