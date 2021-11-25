@@ -7,5 +7,3 @@ msbuild version 16.8.0-ci-21054
 mono version 6.13.0.1001
 dotnet version 5.0.102
 MSBuild.Sdk.Extras version 3.0.23
-
-This error is mac only, builds fine on Windows.
